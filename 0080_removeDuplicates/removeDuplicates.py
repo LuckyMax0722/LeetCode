@@ -20,6 +20,3 @@ class Solution(object):
 
         # 快慢指针 好聪明啊
         # l-2
-
-
-

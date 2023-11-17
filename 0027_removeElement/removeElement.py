@@ -5,6 +5,7 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
+
         idx = 0
 
         while idx < len(nums):
