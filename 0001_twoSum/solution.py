@@ -13,3 +13,4 @@ class Solution(object):
             if target - num in hasttable:  # 检查之前是否已经出现过另一个数字
                 return [i, hasttable[target - num]]
             hasttable[num] = i  # 把数字和索引成对存在哈希表里
+
