@@ -29,3 +29,4 @@ class Solution(object):
         nums[0:k] = tmp
         # 新列表
         '''
+

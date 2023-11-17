@@ -22,5 +22,3 @@ class Solution(object):
         # 比最低价 低 就设置成 最低价
         # 比最低价 高 就比较利润
 
-
-
