@@ -29,6 +29,7 @@ class Solution(object):
         # 笨办法
         """
 
+        '''
         if not s:
             return ''
 
@@ -45,3 +46,16 @@ class Solution(object):
             ans = ans + strs[i] + ' '
 
         return ans.strip()
+        '''
+
+        '''
+        temp = s.split(' ')
+        temp = [item for item in temp if item != '']
+
+        return ' '.join(temp[::-1])
+
+        # 第二次写
+        '''
+
+        s = s.split()
+        return ' '.join(s[::-1])
